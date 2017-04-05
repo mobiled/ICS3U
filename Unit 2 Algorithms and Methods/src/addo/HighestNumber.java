@@ -1,7 +1,12 @@
 package addo;
 
 import java.util.Scanner;
-
+/**
+ * Determines largest number from an array of numbers
+ * HighestNumber.java
+ * @author Ahmed Addo
+ * 05/04/17
+ */
 public class HighestNumber {
 
 	public static void main(String[] args) {

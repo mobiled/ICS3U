@@ -1,7 +1,12 @@
 package addo;
 
 import java.util.Scanner;
-
+/**
+ * Determines if a number is prime or not
+ * PrimeNumbers.java
+ * @author 323993204
+ * 05/04/17
+ */
 public class PrimeNumbers {
 
 	public static void main(String[] args) {

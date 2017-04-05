@@ -1,7 +1,12 @@
 package addo;
 
 import java.util.Scanner;
-
+/**
+ * Finds the sum of all digits in a number
+ * SumOfDigits.java
+ * @author 323993204
+ * 05/04/17
+ */
 public class SumOfDigits {
 
 	public static void main(String[] args) {

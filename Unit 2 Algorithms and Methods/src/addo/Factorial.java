@@ -1,7 +1,12 @@
 package addo;
 
 import java.util.Scanner;
-
+/**
+ * Determines the factorial of a number from user
+ * Factorial.java
+ * @author Ahmed Addo
+ *05/02/17
+ */
 public class Factorial {
 
 	public static void main(String[] args) {

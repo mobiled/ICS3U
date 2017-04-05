@@ -1,7 +1,12 @@
 package addo;
 
 import java.util.Scanner;
-
+/**
+ * GCF.java
+ * Determines the greatest common factor between two numbers
+ * @author Ahmed Addo
+ * 05/04/17
+ */
 public class GCF {
 
 	public static void main(String[] args) {
