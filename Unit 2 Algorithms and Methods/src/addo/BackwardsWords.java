@@ -1,7 +1,12 @@
 package addo;
 
 import java.util.Scanner;
-
+/**
+ * Prints Sentence Backwards
+ * BackwardsWords.java
+ * @author Ahmed Addo
+ * 12/04/17
+ */
 public class BackwardsWords {
 
 	public static void main(String[] args) {
