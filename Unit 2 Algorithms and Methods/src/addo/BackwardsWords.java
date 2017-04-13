@@ -13,13 +13,13 @@ public class BackwardsWords {
 		Scanner sc = new Scanner(System.in);
 		System.out.println("Enter a sentence");
 		String[] sentence = sc.nextLine().split(" ");
-		String s = "";
+		
 
 		String word;
 		for (int i = 0; i < sentence.length; i++) {
 			word = sentence[i];
 			for (int j = word.length(); j > 0; j--) {
-				if (((Character) (sentence[i].charAt(0))).toString().matches("[A-Z]")) {
+				if (((Character) (word.charAt(0))).toString().matches("[A-Z]")) {
 					if (j == word.length()) {
 						System.out.print(Character.toUpperCase(word.charAt(j - 1)));
 					} else {
@@ -35,7 +35,4 @@ public class BackwardsWords {
 
 	}
 
-	// public static String backwards(String[] sentence) {
-
-	// }
 }
