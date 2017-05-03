@@ -18,7 +18,7 @@ public class Life {
 		int numAliveCells = sc.nextInt();
 		int y;
 		int x;
-		System.out.println("Enter the arr of the alive cells");
+		System.out.println("Enter the coordinates of the alive cells");
 		// assigns location of alive cells
 		for (int i = 1; i <= numAliveCells; i++) {
 			System.out.println("Enter x coordinate from (0-20)");
