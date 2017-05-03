@@ -75,7 +75,7 @@ public class Life {
 	 * @param column - column of the array
 	 * @return - true if appropriate amount of neighbours, false if not
 	 */
-	private static boolean isCellAlive(int[][] arr, int row, int column) {
+	public static boolean isCellAlive(int[][] arr, int row, int column) {
 
 		// cell is alive
 		boolean aliveCell = arr[row][column] == 1;
