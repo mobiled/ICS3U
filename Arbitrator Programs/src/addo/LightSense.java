@@ -47,17 +47,17 @@ public class LightSense implements Behavior{
 	 * Positions the robot and claw grabs the ball
 	 */
 	public void grabBall(){
+		//positions the robot so the claw and ball is aligned
 		Motor.B.stop();
 		Motor.C.rotate(165);
 		Motor.C.stop();
 		Delay.msDelay(1000);
 		Motor.B.rotate(25,true);
 		Motor.C.rotate(25,true);
+		//claw grabs the ball
 		Motor.A.rotateTo(-155);
 		Motor.A.stop();
 
 	}
 	
-	
-
 }

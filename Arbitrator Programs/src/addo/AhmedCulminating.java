@@ -22,6 +22,7 @@ public class AhmedCulminating {
 		Behavior b3 = new LightSense();
 		Behavior[] behaviours = {b1,b2,b3,b0};
 		Arbitrator arb = new Arbitrator(behaviours);
+		//Arbitrator runs when a button is pressed
 		Button.waitForAnyPress();
 		arb.start();
 		Button.waitForAnyPress();
