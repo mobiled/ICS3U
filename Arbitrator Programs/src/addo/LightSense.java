@@ -37,7 +37,7 @@ public class LightSense implements Behavior {
 			grabBall();
 			Thread.yield();
 		}
-		Motor.A.rotateTo(90);
+		Motor.A.rotateTo(-155);
 	}
 
 	/**
@@ -60,7 +60,6 @@ public class LightSense implements Behavior {
 		Motor.B.rotate(25, true);
 		Motor.C.rotate(25, true);
 		// claw grabs the ball
-		Motor.A.rotateTo(-155);
 		Motor.A.stop();
 
 	}

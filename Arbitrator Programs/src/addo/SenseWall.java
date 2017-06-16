@@ -33,9 +33,10 @@ public class SenseWall implements Behavior {
 	@Override
 	public void action() {
 		suppress = false;
-		Motor.C.stop();
+		Motor.C.backward();
 		Motor.B.backward();
 		Delay.msDelay(1000);
+		Motor.B.forward();
 		Motor.C.stop();
 		Delay.msDelay(1000);
 
