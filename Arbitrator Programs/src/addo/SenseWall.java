@@ -16,11 +16,10 @@ import lejos.util.Delay;
 public class SenseWall implements Behavior {
 	private UltrasonicSensor sonic = new UltrasonicSensor(SensorPort.S4);
 	private boolean suppress = false;
-
-	@Override
 	/**
 	 * If the ultra sonic sensor finds an object/wall in the way, take control
 	 */
+	@Override
 	public boolean takeControl() {
 		if (sonic.getDistance() <= 25) {
 			return true;
@@ -28,10 +27,10 @@ public class SenseWall implements Behavior {
 		return false;
 	}
 
-	@Override
 	/**
 	 * The robot rotates its direction
 	 */
+	@Override
 	public void action() {
 		suppress = false;
 		Motor.C.stop();
@@ -41,7 +40,9 @@ public class SenseWall implements Behavior {
 		Delay.msDelay(1000);
 
 	}
-
+	/**
+	 * suppress is now true
+	 */
 	@Override
 	public void suppress() {
 		suppress = true;
